@@ -19,7 +19,7 @@ namespace Shapes3d
         }
         public override double Volume()
         {
-            return (4*Math.PI*R*R*R/3);
+            return (4.0*Math.PI*R*R*R/3.0);
         }
     }
 }
